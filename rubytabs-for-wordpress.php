@@ -96,7 +96,7 @@ function rt01scripts_page_front() {
     // Script se~ chen` vao trong trang neu co' rubytabs
     wp_enqueue_style('rt01css-core');
     wp_enqueue_style('r01css-animate');   // Kiem tra co' chen` hay khong
-    wp_enqueue_script('rt01js-header');
+    wp_enqueue_script('rt01js-footer');
 }
 
 // CHEN STYLE + SCRIPT VAO TRANG RUBYTABS SETUP
@@ -109,3 +109,6 @@ function rt01scripts_page_rubytabs() {
 
 add_action('init', 'rt01register_scripts');
 add_action('wp_enqueue_scripts', 'rt01scripts_page_front', 11);
+
+
+
