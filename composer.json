@@ -1,6 +1,6 @@
 {
-    "name": "rubytabs",
-    "description": "Ruby tabs integration",
+    "name": "slidingtabs",
+    "description": "Tabs integration",
     "type": "wordpress-plugin",
     "license": "MIT",
     "authors": [
